@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { navItems } from "@/Data";
 import Hero from "@/Components/Hero";
 import { FloatingNav } from "@/Components/ui/FloatingNav";
 import Grid from "@/Components/Grid";
@@ -12,8 +13,7 @@ export default function Home() {
 			flex-col overflow-hidden mx-auto sm:px-10 px-5">
 			<div className="max-w-7xl w-full">
 				<FloatingNav
-					navItems={[{ name: "Home", link: "/", icon: <FaHome /> }]}
-				/>
+					navItems={navItems}/>
 				<Hero />
 				<Grid />
 				<RecentProjects/>
