@@ -7,6 +7,10 @@ import { FaHome } from "react-icons/fa";
 import RecentProjects from "@/Components/RecentProjects"
 import Client from "@/Components/Client"
 import Experience from "@/Components/Experience";
+import Approach  from "@/Components/Approach";
+import Footer from  "@/Components/Footer"
+
+
 
 export default function Home() {
 	return (
@@ -21,6 +25,8 @@ export default function Home() {
 				<RecentProjects/>
 				<Client/>
 				<Experience/>
+				<Approach/>
+				<Footer/>
 			</div>
 		</main>
 	);
